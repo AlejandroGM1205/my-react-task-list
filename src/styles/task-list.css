@@ -1,0 +1,45 @@
+.task-list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    height: auto;    
+}
+
+.task-list-container .footer-list{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    border: 3px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 0.6fr;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+}
+
+.footer-list .tasks-left{
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 15px;
+    color: #424f53;
+    height: 100%;
+    border: 2px;
+    border-color: black;
+
+}
+.footer-list .clear-all{
+    display: grid;
+    align-items: center;
+    height: 100%;
+    background-color: #e13445;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 15px;
+    outline: none;
+}
